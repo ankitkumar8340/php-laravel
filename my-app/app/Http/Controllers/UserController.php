@@ -18,7 +18,18 @@ class UserController extends Controller{
     }
 
     function getUsers($name){
-        return "this is ". $name;
+        return view('ankit', ['name'=> $name]);
+    }
+
+    function adminLogin(){
+        return view('admin.login');
+    }
+
+    function testUser($name){
+        $a=12;
+        $b=13;
+        $c=$a+$b;
+        return view('test', ['name'=>$name, 'message'=> "hello how are you ".$name]);
     }
 
 }

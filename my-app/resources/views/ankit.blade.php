@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hello i am ankit</p>
+    <p>Hello i am {{$name}}</p>
+    <h2>{{$name}}</h2>
     
 </body>
 </html>

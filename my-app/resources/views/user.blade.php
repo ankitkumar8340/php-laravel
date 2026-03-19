@@ -8,9 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="/user/about">about</a>
-    <h1>{{$name}}</h1>
-    <h2>{{$sum}}</h2>
+    <!-- <a href="/about">about</a>
+    <a href="/test">test</a> -->
+    <p>{{$name}}</p>
+    
     
 </body>
 </html>
