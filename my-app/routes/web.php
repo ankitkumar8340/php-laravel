@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Middleware;
 
 Route::get('/', function (){
     return view("welcome");
@@ -56,6 +57,13 @@ Route::get('/user', function(){
     return view('user')->with('name', 'Radhe Radhe');
 });
 
+
+Route::get('lapse/{name}', [UserController::class, 'helloUser']);
+
+Route::get('admin', function (){
+    return "Admin pannel";
+
+})-> middleware(CheckRole::class);
 
 
 

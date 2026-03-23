@@ -1,0 +1,44 @@
+// {
+// "version":"0.2.0",
+// "configurations":[
+//     {
+//         "name":"Launch Browser",
+//         "request":"launch",
+//         "type":"editor-browser",
+//         "url":"http://127.0.0.1:8000",
+//         "webRoot":"$(workspaceFolder)/view",
+//         "prelaunchTask":"serve"
+//     }
+// ]
+
+
+
+
+
+// }
+ 
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Launch Browser",
+//       "request": "launch",
+//       "type": "pwa-chrome",
+//       "url": "http://127.0.0.1:8000",
+//       "webRoot": "${workspaceFolder}/resources/views"
+//     }
+//   ]
+// }
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "editor-browser",
+      "request": "launch",
+      "name": "Open Laravel in VSCode Browser",
+      "url": "http://127.0.0.1:8000"
+    }
+  ]
+}
+

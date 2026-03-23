@@ -32,6 +32,10 @@ class UserController extends Controller{
         return view('test', ['name'=>$name, 'message'=> "hello how are you ".$name]);
     }
 
+    function helloUser($name){
+        return view('lapse', ['name'=> $name, 'message'=> "hello how are you..?? "]);
+    }
+
 }
 
 
